@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Disk usage:"
-df -h
+echo "Disk usage per directory:"
+du -sh */ 2>/dev/null
