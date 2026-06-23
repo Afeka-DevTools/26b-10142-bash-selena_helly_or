@@ -1,6 +1,11 @@
 #!/bin/bash
 
-prefix="in"
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <prefix>"
+  exit 1
+fi
+
+prefix="$1"
 target_dir="$(cd "$(dirname "$0")/prefix_test" && pwd)"
 
 add_prefix() {
