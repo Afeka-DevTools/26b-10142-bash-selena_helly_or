@@ -1,7 +1,7 @@
 ## Team Members
 * Hili Piperno
 * Selena
-* Or
+* Or Kline
 
 ## Project Setup and Execution
 1. **Clone the repository:**
@@ -25,3 +25,17 @@
 * **backup_dir.sh**: Creates a compressed backup archive of a given directory.
   * **How to run:** `./backup_dir.sh <source_dir> <backup_file.tar.gz>`
   * **Example:** `./backup_dir.sh my_folder backup.tar.gz`
+
+### Or's Scripts
+* **add_prefix.sh**: Adds a user-inputted prefix to all filenames in /prefix_test. Does not add the prefix if it's already included.
+  * **How to run:** `./add_prefix.sh <prefix>`
+  * **Example:** `./add_prefix.sh in`
+* **battery.sh**: Shows current battery level in percentage on your device.
+  * **How to run:** `./battery.sh`
+* **check_connection.sh**: Checks if your device is connected to the internet.
+  * **How to run:** `./check_connection.sh`
+* **count_by_suffix.sh**: Looks into /suffix_search_test and counts how many filenames contain the specified suffix.
+  * **How to run:** `./count_by_suffix.sh <suffix>`
+  * **Example:** `./count_by_suffix.sh ing`
+* **countdown.sh**: Initiates a countdown timer based on user input. Format is HH:MM:SS.
+  * **How to run:** `./countdown.sh`
